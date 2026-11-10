@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community Grant Watch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Seattle · King County · Washington · Microsoft</p>
+    <h1>Community Grant Watch</h1>
+    <p class="subtitle">Official grant opportunities and the submission work behind them.</p>
+    <p id="updated" class="updated">Loading current grant data…</p>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="Grant summary">
+      <article><span id="open-count">—</span><small>Open opportunities</small></article>
+      <article><span id="due-count">—</span><small>Due within 30 days</small></article>
+      <article><span id="submitted-count">—</span><small>Submitted</small></article>
+      <article><span id="action-count">—</span><small>Need attention</small></article>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <label>Source
+        <select id="source-filter"><option value="">All sources</option></select>
+      </label>
+      <label>Grant status
+        <select id="grant-filter">
+          <option value="">All grant states</option>
+          <option>Open</option><option>Upcoming</option><option>Closed</option><option>Rolling</option><option>Monitor</option>
+        </select>
+      </label>
+      <label>Submission state
+        <select id="submission-filter"><option value="">All submission states</option></select>
+      </label>
+      <label class="search">Search
+        <input id="search" type="search" placeholder="Search opportunities">
+      </label>
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead><tr><th>Opportunity</th><th>Source</th><th>Grant state</th><th>Due</th><th>Our submission</th><th></th></tr></thead>
+        <tbody id="grant-list"></tbody>
+      </table>
+      <p id="empty" hidden>No grants match these filters.</p>
+    </section>
+
+    <section class="sources">
+      <h2>Official sources</h2>
+      <p>Each source is checked every six hours by the GitHub Actions updater. Open a source to verify requirements before applying.</p>
+      <ul id="source-list"></ul>
+    </section>
+  </main>
+  <template id="row-template">
+    <tr>
+      <td><a class="grant-link" target="_blank" rel="noreferrer"></a><p class="description"></p></td>
+      <td class="source"></td><td><span class="badge grant-state"></span></td><td class="due"></td>
+      <td><span class="badge submission-state"></span></td>
+      <td><a class="apply-link" target="_blank" rel="noreferrer">View</a></td>
+    </tr>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>

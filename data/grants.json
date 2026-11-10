@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-11-10T00:31:06Z",
+  "sources": [
+    {
+      "name": "City of Seattle",
+      "url": "https://www.seattle.gov/neighborhoods/programs-and-services/neighborhood-matching-fund",
+      "lastChecked": "2026-11-10T00:31:06Z",
+      "health": "Available (HTTP 200)"
+    },
+    {
+      "name": "King County",
+      "url": "https://kingcounty.gov/en/dept/council/governance-leadership/county-council/councilmembers-districts/teresa-mosqueda/grants-funding",
+      "lastChecked": "2026-11-10T00:31:06Z",
+      "health": "Available (HTTP 200)"
+    },
+    {
+      "name": "Washington State",
+      "url": "https://www.commerce.wa.gov/capital-facilities/building-communities-fund/application-process/",
+      "lastChecked": "2026-11-10T00:31:06Z",
+      "health": "Available (HTTP 200)"
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/community-first-grants/",
+      "lastChecked": "2026-11-10T00:31:06Z",
+      "health": "Available (HTTP 200)"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Neighborhood Matching Fund",
+      "description": "Seattle Department of Neighborhoods funding for community-initiated projects.",
+      "grantStatus": "Monitor",
+      "dueDate": null,
+      "submissionStatus": "Researching",
+      "source": "City of Seattle",
+      "url": "https://www.seattle.gov/neighborhoods/programs-and-services/neighborhood-matching-fund",
+      "lastVerified": "2026-11-10T00:31:06Z"
+    },
+    {
+      "title": "King County Grants and Funding Opportunities",
+      "description": "Official directory of community-organization funding, including 4Culture, engagement, children and family, and other county programs.",
+      "grantStatus": "Monitor",
+      "dueDate": null,
+      "submissionStatus": "Researching",
+      "source": "King County",
+      "url": "https://kingcounty.gov/en/dept/council/governance-leadership/county-council/councilmembers-districts/teresa-mosqueda/grants-funding",
+      "lastVerified": "2026-11-10T00:31:06Z"
+    },
+    {
+      "title": "Building Communities Fund",
+      "description": "Washington State Department of Commerce capital funding for nonprofit community and social-service facilities. The published 2027\u201329 application cycle is closed.",
+      "grantStatus": "Closed",
+      "dueDate": "2026-08-20",
+      "submissionStatus": "Researching",
+      "source": "Washington State",
+      "url": "https://www.commerce.wa.gov/capital-facilities/building-communities-fund/application-process/",
+      "lastVerified": "2026-11-10T00:31:06Z"
+    },
+    {
+      "title": "Microsoft Community-First Grants",
+      "description": "King County nonprofit grants for civic life, education, housing, human services, sustainability, and transportation.",
+      "grantStatus": "Closed",
+      "dueDate": null,
+      "submissionStatus": "Researching",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/community-first-grants/",
+      "lastVerified": "2026-11-10T00:31:06Z"
+    }
+  ]
+}

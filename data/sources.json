@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "name": "City of Seattle",
+      "url": "https://www.seattle.gov/neighborhoods/programs-and-services/neighborhood-matching-fund",
+      "seedGrants": [
+        {
+          "title": "Neighborhood Matching Fund",
+          "description": "Seattle Department of Neighborhoods funding for community-initiated projects.",
+          "grantStatus": "Monitor",
+          "dueDate": null,
+          "submissionStatus": "Researching"
+        }
+      ]
+    },
+    {
+      "name": "King County",
+      "url": "https://kingcounty.gov/en/dept/council/governance-leadership/county-council/councilmembers-districts/teresa-mosqueda/grants-funding",
+      "seedGrants": [
+        {
+          "title": "King County Grants and Funding Opportunities",
+          "description": "Official directory of community-organization funding, including 4Culture, engagement, children and family, and other county programs.",
+          "grantStatus": "Monitor",
+          "dueDate": null,
+          "submissionStatus": "Researching"
+        }
+      ]
+    },
+    {
+      "name": "Washington State",
+      "url": "https://www.commerce.wa.gov/capital-facilities/building-communities-fund/application-process/",
+      "seedGrants": [
+        {
+          "title": "Building Communities Fund",
+          "description": "Washington State Department of Commerce capital funding for nonprofit community and social-service facilities. The published 2027–29 application cycle is closed.",
+          "grantStatus": "Closed",
+          "dueDate": "2026-08-20",
+          "submissionStatus": "Researching"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/community-first-grants/",
+      "seedGrants": [
+        {
+          "title": "Microsoft Community-First Grants",
+          "description": "King County nonprofit grants for civic life, education, housing, human services, sustainability, and transportation.",
+          "grantStatus": "Closed",
+          "dueDate": null,
+          "submissionStatus": "Researching"
+        }
+      ]
+    }
+  ]
+}
