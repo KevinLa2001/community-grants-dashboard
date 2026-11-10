@@ -2,12 +2,19 @@
   "sources": [
     {
       "name": "City of Seattle",
-      "url": "https://www.seattle.gov/neighborhoods/programs-and-services/neighborhood-matching-fund",
+      "url": "https://www.seattle.gov/neighborhoods/community-grants/neighborhood-matching-fund#smallsparks",
       "seedGrants": [
         {
           "title": "Neighborhood Matching Fund",
           "description": "Seattle Department of Neighborhoods funding for community-initiated projects.",
           "grantStatus": "Monitor",
+          "dueDate": null,
+          "submissionStatus": "Researching"
+        },
+        {
+          "title": "Small Sparks Fund",
+          "description": "Seattle Neighborhood Matching Fund awards of up to $5,000 for community projects. Applications are currently closed.",
+          "grantStatus": "Closed",
           "dueDate": null,
           "submissionStatus": "Researching"
         }
